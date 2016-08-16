@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="55921" started-at="2016-08-16T13:23:37Z" finished-at="2016-08-16T13:24:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="55921" started-at="2016-08-16T13:23:37Z" finished-at="2016-08-16T13:24:33Z">
+      <class name="ExecutionEngine.OnlineAppointments">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:ExecutionEngine.OnlineAppointments@ce4dda]" name="beforeTest" is-config="true" duration-ms="17802" started-at="2016-08-16T18:53:37Z" finished-at="2016-08-16T18:53:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="BookAppointment()[pri:0, instance:ExecutionEngine.OnlineAppointments@ce4dda]" name="BookAppointment" duration-ms="38107" started-at="2016-08-16T18:53:55Z" finished-at="2016-08-16T18:54:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookAppointment -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:ExecutionEngine.OnlineAppointments@ce4dda]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-08-16T18:54:33Z" finished-at="2016-08-16T18:54:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- ExecutionEngine.OnlineAppointments -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
