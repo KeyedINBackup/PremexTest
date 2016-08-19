@@ -1,21 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="55921" started-at="2016-08-16T13:23:37Z" finished-at="2016-08-16T13:24:33Z">
+  <suite name="Default suite" duration-ms="99636" started-at="2016-08-19T11:07:03Z" finished-at="2016-08-19T11:08:42Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="55921" started-at="2016-08-16T13:23:37Z" finished-at="2016-08-16T13:24:33Z">
+    <test name="Default test" duration-ms="99636" started-at="2016-08-19T11:07:03Z" finished-at="2016-08-19T11:08:42Z">
       <class name="ExecutionEngine.OnlineAppointments">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:ExecutionEngine.OnlineAppointments@ce4dda]" name="beforeTest" is-config="true" duration-ms="17802" started-at="2016-08-16T18:53:37Z" finished-at="2016-08-16T18:53:55Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:ExecutionEngine.OnlineAppointments@1371c0c]" name="beforeTest" is-config="true" duration-ms="22127" started-at="2016-08-19T16:37:03Z" finished-at="2016-08-19T16:37:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="BookAppointment()[pri:0, instance:ExecutionEngine.OnlineAppointments@ce4dda]" name="BookAppointment" duration-ms="38107" started-at="2016-08-16T18:53:55Z" finished-at="2016-08-16T18:54:33Z">
+        <test-method status="PASS" signature="BookAppointment()[pri:0, instance:ExecutionEngine.OnlineAppointments@1371c0c]" name="BookAppointment" duration-ms="44384" started-at="2016-08-19T16:37:25Z" finished-at="2016-08-19T16:38:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BookAppointment -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:ExecutionEngine.OnlineAppointments@ce4dda]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-08-16T18:54:33Z" finished-at="2016-08-16T18:54:33Z">
+        <test-method status="PASS" signature="SearchAppointment()[pri:1, instance:ExecutionEngine.OnlineAppointments@1371c0c]" name="SearchAppointment" duration-ms="2481" started-at="2016-08-19T16:38:09Z" finished-at="2016-08-19T16:38:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchAppointment -->
+        <test-method status="PASS" signature="RearrangeAppointment()[pri:2, instance:ExecutionEngine.OnlineAppointments@1371c0c]" name="RearrangeAppointment" duration-ms="8121" started-at="2016-08-19T16:38:12Z" finished-at="2016-08-19T16:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RearrangeAppointment -->
+        <test-method status="PASS" signature="CancelAppointment()[pri:3, instance:ExecutionEngine.OnlineAppointments@1371c0c]" name="CancelAppointment" duration-ms="6041" started-at="2016-08-19T16:38:20Z" finished-at="2016-08-19T16:38:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelAppointment -->
+        <test-method status="PASS" signature="ManageExpertsDiaries()[pri:4, instance:ExecutionEngine.OnlineAppointments@1371c0c]" name="ManageExpertsDiaries" duration-ms="16448" started-at="2016-08-19T16:38:26Z" finished-at="2016-08-19T16:38:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ManageExpertsDiaries -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:ExecutionEngine.OnlineAppointments@1371c0c]" name="afterTest" is-config="true" duration-ms="10" started-at="2016-08-19T16:38:42Z" finished-at="2016-08-19T16:38:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

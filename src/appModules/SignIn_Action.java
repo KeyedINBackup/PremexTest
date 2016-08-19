@@ -13,7 +13,9 @@ public class SignIn_Action {
 		Login_Page.user_name(dr).sendKeys(Sname);
 		Login_Page.password(dr).sendKeys(Spass);
 		Login_Page.login_button(dr).click();
+		System.out.println("****************************************************************");
 		System.out.println("Login done successfully");
+		System.out.println("****************************************************************");
 	}
 
 }

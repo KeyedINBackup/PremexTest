@@ -20,6 +20,13 @@ public class AvailableAppointments {
 		
 	}
 	
+	public static WebElement BookAppointment2(WebDriver dr){
+		element =dr.findElement(By.id("ctl00_mainContentPlaceHolder_slotListControl_slotsGrid_ctl03_bookAppointmentLink"));
+		return element;
+		
+	}
+	
+	
 	public static WebElement SearchAgain(WebDriver dr){
 		element =dr.findElement(By.id("ctl00_mainContentPlaceHolder_searchButton"));
 		return element;

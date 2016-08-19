@@ -5,9 +5,9 @@
     <classes>
       <class name="ExecutionEngine.OnlineAppointments">
         <methods>
+          <include name="ManageExpertsDiaries"/>
           <include name="afterTest"/>
           <include name="beforeTest"/>
-          <include name="BookAppointment"/>
         </methods>
       </class> <!-- ExecutionEngine.OnlineAppointments -->
     </classes>

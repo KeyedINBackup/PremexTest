@@ -62,5 +62,10 @@ public class BookingConfirmation {
 		
 	}
 	
+	public static WebElement HomeButton(WebDriver dr){
+		element =dr.findElement(By.id("ctl00_mainContentPlaceHolder_cancelButton"));
+		return element;
+		
+	}
 	
 }

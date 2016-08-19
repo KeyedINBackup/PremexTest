@@ -12,5 +12,11 @@ public class Constants {
 	
 	public static final String fileName="TestData.xlsx";
 	
+	public static final String loginDetails="Sheet1";
+	
+	public static final String BookingDetails="Sheet2";
+	
+	public static final String ExpertsDetails="Sheet3";
+	
 	
 }

@@ -29,7 +29,7 @@ public class Home_page {
 	}
 	
 	public static WebElement SearchAppointments(WebDriver dr){
-		element= dr.findElement(By.xpath(".//*[@id='userMenu']/div[2]/ul/li[4]/span[1]/a"));
+		element= dr.findElement(By.xpath(".//*[@id='userMenu']/div[2]/ul/li[5]/span[1]/a"));
 		return element;
 	}
 	
@@ -39,7 +39,7 @@ public class Home_page {
 	}
 	
 	public static WebElement ChangeName(WebDriver dr){
-		element= dr.findElement(By.xpath(".//*[@id='ctl00_mainContentPlaceHolder_Li2']/span[1]/a"));
+		element= dr.findElement(By.xpath(".//*[@id='ctl00_mainContentPlaceHolder_Li2']/span[2]/a"));
 		return element;
 	}
 	
