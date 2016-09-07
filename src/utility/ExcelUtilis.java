@@ -1,10 +1,9 @@
 package utility;
-
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
+import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.xssf.usermodel.*;
-
 public class ExcelUtilis {
 
 	private static XSSFSheet ExcelWSheet;
@@ -19,22 +18,23 @@ public static void setExcelFile(String Path,String SheetName) throws Exception {
         ExcelWBook = new XSSFWorkbook(ExcelFile);
         ExcelWSheet = ExcelWBook.getSheet(SheetName);
        }
-
 //This method is to read the test data from the Excel Cell
 //In this we are passing parameters/arguments as Row Num and Col Num
 public static String getCellData(int RowNum, int ColNum) throws Exception{
-	  Cell = ExcelWSheet.getRow(RowNum).getCell(ColNum);
-      String CellData = Cell.getStringCellValue();
-      return CellData;
+	DataFormatter formatter = new DataFormatter(); //creating formatter using the default locale
+	 Cell = ExcelWSheet.getRow(RowNum).getCell(ColNum);
+	 String j_username = formatter.formatCellValue(Cell); //Returns the formatted value of a cell as a String regardless of the cell type.
+//	  Cell = ExcelWSheet.getRow(RowNum).getCell(ColNum);
+//      String CellData = Cell.getStringCellValue();
+//      return CellData;
+	return j_username;
 	}
-
 //This method is to get the row count used of the excel sheet
 public static int getRowCount(String SheetName){
 		ExcelWSheet = ExcelWBook.getSheet(SheetName);
 		int number=ExcelWSheet.getLastRowNum()+1;
 		return number;
 	}
-
 public static void PrintResult(String result, int Rownum, int colnum) throws Exception{
 	try{
 		Row=ExcelWSheet.getRow(Rownum);
@@ -48,9 +48,7 @@ public static void PrintResult(String result, int Rownum, int colnum) throws Exc
 	FileOutputStream out = new FileOutputStream(Constants.path + Constants.fileName);
 	ExcelWBook.write(out);
 	out.flush();
-	out.close();
-		
-				
+	out.close();				
 	}catch(Exception e){
 		throw e;
 	}

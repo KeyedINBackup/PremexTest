@@ -91,6 +91,8 @@ public class OnlineAppointments {
   
   @Test(enabled=true, priority=2)
   public static void RearrangeAppointment() throws Exception{
+	  ExcelUtilis.setExcelFile(Constants.path + Constants.fileName,Constants.BookingDetails);
+	  String EarlierDate=ExcelUtilis.getCellData(1, 1);
 	  Home_page.RearrangeAppointment(dr).click();
 	  BookedAppointments.BookingReferenceNo(dr).sendKeys(BookingReference);
 	  BookedAppointments.Search(dr).click();
@@ -98,6 +100,13 @@ public class OnlineAppointments {
 	  String postcode=ExcelUtilis.getCellData(1, 0);
 	  SearchAvailableAppointments.FromPostCode(dr).sendKeys(postcode);
 	  SearchAvailableAppointments.SearchButton(dr).click();
+	  String PS=dr.getPageSource();
+	  if(PS.contains(Constants.RearrangePageError)){
+		  AppointmentLocations.SearchAgain(dr).click();
+		  SearchAvailableAppointments.EarliestDate(dr).clear();
+		  SearchAvailableAppointments.EarliestDate(dr).sendKeys(EarlierDate);
+		  SearchAvailableAppointments.SearchButton(dr).click();	  
+	  }
 	  AppointmentLocations.ViewAppointment1(dr).click();
 	  AvailableAppointments.BookAppointment2(dr).click();
 	  BookingConfirmation.ConfirmBooking(dr).click();

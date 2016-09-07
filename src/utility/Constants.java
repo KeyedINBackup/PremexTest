@@ -18,5 +18,6 @@ public class Constants {
 	
 	public static final String ExpertsDetails="Sheet3";
 	
+	public static final String RearrangePageError="No appointments found within specified criteria";
 	
 }
