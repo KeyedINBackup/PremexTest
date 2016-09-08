@@ -2,12 +2,12 @@
 <testng-results skipped="5" failed="0" total="5" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="25280" started-at="2016-09-08T09:56:02Z" finished-at="2016-09-08T09:56:27Z">
+  <suite name="Suite" duration-ms="33579" started-at="2016-09-08T11:26:02Z" finished-at="2016-09-08T11:26:35Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="25280" started-at="2016-09-08T09:56:02Z" finished-at="2016-09-08T09:56:27Z">
+    <test name="Test" duration-ms="33579" started-at="2016-09-08T11:26:02Z" finished-at="2016-09-08T11:26:35Z">
       <class name="ExecutionEngine.OnlineAppointments">
-        <test-method status="FAIL" signature="beforeTest()[pri:0, instance:ExecutionEngine.OnlineAppointments@4563e9ab]" name="beforeTest" is-config="true" duration-ms="0" started-at="2016-09-08T15:26:02Z" finished-at="2016-09-08T15:26:02Z">
+        <test-method status="FAIL" signature="beforeTest()[pri:0, instance:ExecutionEngine.OnlineAppointments@4563e9ab]" name="beforeTest" is-config="true" duration-ms="0" started-at="2016-09-08T16:56:02Z" finished-at="2016-09-08T16:56:02Z">
           <exception class="java.lang.NoClassDefFoundError">
             <message>
               <![CDATA[org/apache/poi/ss/usermodel/Cell]]>
@@ -48,27 +48,27 @@ Caused by: java.lang.ClassNotFoundException: org.apache.poi.ss.usermodel.Cell
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="SKIP" signature="BookAppointment()[pri:0, instance:ExecutionEngine.OnlineAppointments@4563e9ab]" name="BookAppointment" duration-ms="0" started-at="2016-09-08T15:26:27Z" finished-at="2016-09-08T15:26:27Z">
+        <test-method status="SKIP" signature="BookAppointment()[pri:0, instance:ExecutionEngine.OnlineAppointments@4563e9ab]" name="BookAppointment" duration-ms="0" started-at="2016-09-08T16:56:35Z" finished-at="2016-09-08T16:56:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BookAppointment -->
-        <test-method status="SKIP" signature="SearchAppointment()[pri:1, instance:ExecutionEngine.OnlineAppointments@4563e9ab]" name="SearchAppointment" duration-ms="0" started-at="2016-09-08T15:26:27Z" finished-at="2016-09-08T15:26:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SearchAppointment -->
-        <test-method status="SKIP" signature="RearrangeAppointment()[pri:2, instance:ExecutionEngine.OnlineAppointments@4563e9ab]" name="RearrangeAppointment" duration-ms="0" started-at="2016-09-08T15:26:27Z" finished-at="2016-09-08T15:26:27Z">
+        <test-method status="SKIP" signature="RearrangeAppointment()[pri:2, instance:ExecutionEngine.OnlineAppointments@4563e9ab]" name="RearrangeAppointment" duration-ms="0" started-at="2016-09-08T16:56:35Z" finished-at="2016-09-08T16:56:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RearrangeAppointment -->
-        <test-method status="SKIP" signature="CancelAppointment()[pri:3, instance:ExecutionEngine.OnlineAppointments@4563e9ab]" name="CancelAppointment" duration-ms="2" started-at="2016-09-08T15:26:27Z" finished-at="2016-09-08T15:26:27Z">
+        <test-method status="SKIP" signature="SearchAppointment()[pri:1, instance:ExecutionEngine.OnlineAppointments@4563e9ab]" name="SearchAppointment" duration-ms="0" started-at="2016-09-08T16:56:35Z" finished-at="2016-09-08T16:56:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchAppointment -->
+        <test-method status="SKIP" signature="CancelAppointment()[pri:3, instance:ExecutionEngine.OnlineAppointments@4563e9ab]" name="CancelAppointment" duration-ms="0" started-at="2016-09-08T16:56:35Z" finished-at="2016-09-08T16:56:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CancelAppointment -->
-        <test-method status="SKIP" signature="ManageExpertsDiaries()[pri:4, instance:ExecutionEngine.OnlineAppointments@4563e9ab]" name="ManageExpertsDiaries" duration-ms="0" started-at="2016-09-08T15:26:27Z" finished-at="2016-09-08T15:26:27Z">
+        <test-method status="SKIP" signature="ManageExpertsDiaries()[pri:4, instance:ExecutionEngine.OnlineAppointments@4563e9ab]" name="ManageExpertsDiaries" duration-ms="0" started-at="2016-09-08T16:56:35Z" finished-at="2016-09-08T16:56:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ManageExpertsDiaries -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:ExecutionEngine.OnlineAppointments@4563e9ab]" name="afterTest" is-config="true" duration-ms="12" started-at="2016-09-08T15:26:27Z" finished-at="2016-09-08T15:26:27Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:ExecutionEngine.OnlineAppointments@4563e9ab]" name="afterTest" is-config="true" duration-ms="12" started-at="2016-09-08T16:56:35Z" finished-at="2016-09-08T16:56:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
