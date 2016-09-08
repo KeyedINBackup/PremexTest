@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<<<<<<< HEAD
 <suite thread-count="10" guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [Suite]" parallel="none">
   <test name="Test(failed)" parallel="none">
     <classes>
@@ -13,3 +14,22 @@
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
+=======
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="ExecutionEngine.OnlineAppointments">
+        <methods>
+          <include name="SearchAppointment"/>
+          <include name="ManageExpertsDiaries"/>
+          <include name="RearrangeAppointment"/>
+          <include name="afterTest"/>
+          <include name="CancelAppointment"/>
+          <include name="beforeTest"/>
+          <include name="BookAppointment"/>
+        </methods>
+      </class> <!-- ExecutionEngine.OnlineAppointments -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
+>>>>>>> 50f0f5864fc2051c5e7393767baa28b53bc54298

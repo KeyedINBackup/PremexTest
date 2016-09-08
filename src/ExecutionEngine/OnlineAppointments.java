@@ -180,7 +180,11 @@ public class OnlineAppointments {
 	  
 	  }
   
+<<<<<<< HEAD
   @BeforeTest(alwaysRun = true)
+=======
+  @BeforeTest
+>>>>>>> 50f0f5864fc2051c5e7393767baa28b53bc54298
   public void beforeTest() throws Exception {
 	  	dr=new FirefoxDriver();
 		dr.navigate().to(Constants.URL);
@@ -192,7 +196,11 @@ public class OnlineAppointments {
 		
   }
 
+<<<<<<< HEAD
   @AfterTest(alwaysRun = true)
+=======
+  @AfterTest
+>>>>>>> 50f0f5864fc2051c5e7393767baa28b53bc54298
   public void afterTest() {
 	  dr.close();
   }

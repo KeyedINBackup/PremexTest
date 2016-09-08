@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<<<<<<< HEAD
 <suite name="Suite" parallel="none" thread-count="10" verbose="10" configfailurepolicy="skip">
   <test name="Test">
     <classes>
       <class name="ExecutionEngine.OnlineAppointments"/>
+=======
+<suite name="Suite" parallel="none">
+  <test name="Test">
+    <classes>
+      <class name="com.premex.test.ExecutionEngine.OnlineAppointments"/>
+>>>>>>> 50f0f5864fc2051c5e7393767baa28b53bc54298
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
